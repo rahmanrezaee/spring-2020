@@ -5,8 +5,7 @@ import hu.cs.se.adjava.projectmanagement.model.JwtResponse;
 import hu.cs.se.adjava.projectmanagement.model.User;
 import hu.cs.se.adjava.projectmanagement.repository.UserRepository;
 import hu.cs.se.adjava.projectmanagement.util.JwtUtility;
-import jdk.jfr.Unsigned;
-import org.hibernate.annotations.UpdateTimestamp;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.authentication.AuthenticationManager;
